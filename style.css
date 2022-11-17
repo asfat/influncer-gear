@@ -1,0 +1,128 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Mono:wght@300;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 87px 120px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div a {
+    text-decoration: none;
+    padding-right: 34px;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+p {
+    font-size: 15px;
+
+}
+
+.influncer {
+    padding-bottom: 16px;
+}
+
+.button-decor {
+    background-color: #E02C6D;
+    color: white;
+    padding: 24px 10px;
+    border-radius: 41px;
+}
+
+.button-decor2 {
+    background-color: #E02C6D;
+    color: white;
+    padding: 24px 10px;
+
+}
+
+.section-one {
+    display: flex;
+    padding: 120px 100px;
+}
+
+.section-one img {
+    width: 440px;
+    height: 414px;
+}
+
+.company-images {
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 165px 100px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3px;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid {
+    width: 16px;
+    height: 16px;
+
+}
+
+.padding-left {
+    padding-left: 8px;
+}
+
+.margin-zero {
+    margin: 0px;
+}
+
+.popular-collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    padding-left: 196px;
+    padding-right: 196px;
+}
+
+.part-collection {
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+    padding-right: 197px;
+
+}
+
+.last-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 100px 165px;
+}
+
+footer {
+    padding-top: 50px;
+    background-color: #0A0826;
+    color: white;
+
+
+}
+
+
+.fa-brands {
+    font-size: 32px;
+    padding-top: 17px;
+    padding-bottom: 50px;
+    padding-right: 16px;
+}
